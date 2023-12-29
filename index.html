@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAP</title>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <table id="listTabelBarang" border="2">
+      <thead>
+        <tr>
+          <th>Kode</th>
+          <th>Barang</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <br />
+    <h1>Inputan User</h1>
+    <br />
+
+    <table id="inputan" border="2">
+      <tr>
+        <td>Masukkan Kode</td>
+        <td>:</td>
+        <td>
+          <input type="text" class="in" id="kodeBarang" />
+        </td>
+      </tr>
+      <tr>
+        <td>Banyak Barang</td>
+        <td>:</td>
+        <td>
+          <input type="text" class="in" id="banyakBarang" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button onclick="submit()">Submit</button>
+        </td>
+      </tr>
+    </table>
+
+    <script src="Javascript.js"></script>
+  </body>
+</html>
